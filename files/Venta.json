@@ -1,0 +1,40 @@
+{
+    "controlador.TDA.listas.DynamicList": {
+        "header": {
+            "info": {
+                "@class": "modelo.Venta",
+                "id": 0,
+                "vendedor": {
+                    "dni": 1105321515,
+                    "nombre": "Daniel",
+                    "apellido": "Luna Gaona",
+                    "telefono": "0992104325",
+                    "agencia": "Loja Casas",
+                    "porcentajeComision": 25
+                },
+                "cliente": {
+                    "dni": 1103714844,
+                    "nombre": "Edi Santiago",
+                    "apellido": "Gaona Torres",
+                    "telefono": "0969222482"
+                },
+                "fecha": "2023-11-14",
+                "monto": 500000,
+                "vivienda": {
+                    "id": 0,
+                    "descripcion": "SJA Depa",
+                    "ancho": 80,
+                    "largo": 85.3,
+                    "numHabitaciones": 4,
+                    "direccion": "San Jose Alto",
+                    "idTipo": 2,
+                    "disponible": false
+                }
+            }
+        },
+        "last": {
+            "@reference": "..\/header"
+        },
+        "lenght": 1
+    }
+}

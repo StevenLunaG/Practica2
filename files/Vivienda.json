@@ -1,0 +1,34 @@
+{
+    "controlador.TDA.listas.DynamicList": {
+        "header": {
+            "info": {
+                "@class": "modelo.Vivienda",
+                "id": 0,
+                "descripcion": "SJA Depa",
+                "ancho": 80,
+                "largo": 85.3,
+                "numHabitaciones": 4,
+                "direccion": "San Jose Alto",
+                "idTipo": 2,
+                "disponible": false
+            },
+            "next": {
+                "info": {
+                    "@class": "modelo.Vivienda",
+                    "id": 1,
+                    "descripcion": "PH Motupe",
+                    "ancho": 200,
+                    "largo": 230.5,
+                    "numHabitaciones": 7,
+                    "direccion": "Motupe",
+                    "idTipo": 3,
+                    "disponible": false
+                }
+            }
+        },
+        "last": {
+            "@reference": "..\/header\/next"
+        },
+        "lenght": 2
+    }
+}
